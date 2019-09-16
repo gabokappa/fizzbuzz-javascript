@@ -23,3 +23,8 @@ FizzBuzz.prototype.play = function(number) {
     return number
   };
 };
+
+var fizzbuzz = new FizzBuzz();
+for (var i = 1; i <100; i++) {
+  console.log(fizzbuzz.play(i))
+};
